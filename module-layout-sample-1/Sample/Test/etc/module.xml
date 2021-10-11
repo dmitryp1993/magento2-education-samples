@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+  ~ Absolute Web Services Intellectual Property
+  ~
+  ~ @copyright    Copyright © 1999-2018 Absolute Web Services, Inc. (http://www.absolutewebservices.com)
+  ~ @author       Absolute Web Services
+  ~ @license      http://www.absolutewebservices.com/license-agreement/  Single domain license
+  ~ @terms of use http://www.absolutewebservices.com/terms-of-use/
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Sample_Test" >
+        <sequence>
+            <module name="Magento_Customer"/>
+        </sequence>
+    </module>
+</config>
